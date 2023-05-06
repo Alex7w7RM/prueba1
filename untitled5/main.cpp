@@ -79,4 +79,16 @@ int main() {
         int multiplicacion = i * n;
         cout<<n <<" x "<< i <<"="<< multiplicacion <<endl;
 }
+    //ejercicio 7
+    cout<<"Ingresar el numero que desee multiplicar :"<<endl;
+
+    cin>>n;
+    cout <<"tabla de multiplicar del: " << n<< endl;
+
+    for(int i=1;i<=10;i++){
+
+        int multiplicacion = i * n;
+        cout<<n <<" x "<< i <<"="<< multiplicacion <<endl;
+    }
+
 }
